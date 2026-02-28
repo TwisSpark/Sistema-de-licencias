@@ -11,7 +11,7 @@ El comando no funcionará si falta alguna opción.
 ## 🔹 Opciones del Comando
 
 ### 1️⃣ nombre
-- Tipo: String (Text)
+- Tipo: (Text)
 - Requerido: ✅ Sí
 - Descripción: Nombre de la persona que se registrará.
 
@@ -21,24 +21,30 @@ El comando no funcionará si falta alguna opción.
 ---
 
 ### 2️⃣ apellido
-- Tipo: String (Text)
+- Tipo: (Text)
 - Requerido: ✅ Sí
 - Descripción: Apellido de la persona.
+<div align="center">
+  <img src="" width="500">
+</div>
 
 
 ---
 
 ### 3️⃣ fecha_de_nacimiento
-- Tipo: String (Text)
+- Tipo: (Text)
 - Requerido: ✅ Sí
 - Descripción: Fecha de nacimiento del usuario.
 - Formato recomendado: DD/MM/AAAA
 
+<div align="center">
+  <img src="" width="500">
+</div>
 
 ---
 
 ### 4️⃣ licencia_tipo
-- Tipo: String (Text)
+- Tipo: (Text)
 - Requerido: ✅ Sí
 - Descripción: Tipo de licencia que se va a registrar.
 - Restricción: Solo permite valores predefinidos (choices).
@@ -53,6 +59,13 @@ El comando no funcionará si falta alguna opción.
 
 3. Nombre mostrado: C - camiones  
    Valor interno: C
+
+<div align="center">
+  <img src="https://i.imgur.com/EgATA3J.png" width="500">
+</div>
+<div align="center">
+  <img src="https://i.imgur.com/akvvmwo.png" width="500">
+</div>
 
 
 💡 Nota Técnica:
