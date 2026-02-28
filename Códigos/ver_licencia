@@ -50,5 +50,7 @@ Este comando es útil para verificar la información de licencias activas, punto
 - Este comando solo funciona si el usuario tiene una **licencia registrada**.  
 - Si no tiene licencia, mostrará un mensaje indicando que debe **comprar y registrar** la licencia primero.  
 
+```
 
+```
 
