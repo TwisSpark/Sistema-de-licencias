@@ -1,4 +1,4 @@
-# 📌 `¡ver_licencia` 0 /ver_licencia (usuario)
+# 📌 ¡ver_licencia TwisSpark 0 /ver_licencia (usuario)
 
 Comando utilizado para **ver la licencia** de un usuario específico o la tuya propia.  
 Este comando es útil para verificar la información de licencias activas, puntos, caducidad y tipo de licencia dentro del sistema.
