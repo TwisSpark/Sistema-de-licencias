@@ -15,6 +15,10 @@ El comando no funcionará si falta alguna opción.
 - Requerido: ✅ Sí
 - Descripción: Nombre de la persona que se registrará.
 
+<p align="center">
+  <img src="assets/images/registrar%20licencia/01.png" width="500">
+</p>
+
 ---
 
 ### 2️⃣ apellido
@@ -22,6 +26,9 @@ El comando no funcionará si falta alguna opción.
 - Requerido: ✅ Sí
 - Descripción: Apellido de la persona.
 
+<p align="center">
+  <img src="assets/images/registrar%20licencia/02.png" width="500">
+</p>
 ---
 
 ### 3️⃣ fecha_de_nacimiento
@@ -30,6 +37,9 @@ El comando no funcionará si falta alguna opción.
 - Descripción: Fecha de nacimiento del usuario.
 - Formato recomendado: DD/MM/AAAA
 
+<p align="center">
+  <img src="assets/images/registrar%20licencia/03.png" width="500">
+</p>
 ---
 
 ### 4️⃣ licencia_tipo
@@ -48,6 +58,13 @@ El comando no funcionará si falta alguna opción.
 
 3. Nombre mostrado: C - camiones  
    Valor interno: C
+
+<p align="center">
+  <img src="assets/images/registrar%20licencia/04p1.png" width="500">
+</p>
+<p align="center">
+  <img src="assets/images/registrar%20licencia/04p2.png" width="500">
+</p>
 
 💡 Nota Técnica:
 El usuario verá el nombre completo (ej: "A - coches"),
