@@ -1,7 +1,25 @@
-# 📌 ¡ver_licencia TwisSpark 0 /ver_licencia (usuario)
+# 📌 `/ver_licencia` / `-ver_licencia`
 
-Comando utilizado para **ver la licencia** de un usuario específico o la tuya propia.  
-Este comando es útil para verificar la información de licencias activas, puntos, caducidad y tipo de licencia dentro del sistema.
+Este comando puede usarse de **dos formas**:
+
+1. **Comando de Slash (`/`)**  
+   - Ejemplo:  
+   ```text
+   /ver_licencia
+   /ver_licencia @Usuario
+   ```
+   - Permite usarlo directamente desde la interfaz de Discord con selección de opciones y menciones.
+
+2. **Comando de Prefix (`-`)**  
+   - Ejemplo:  
+   ```text
+   -ver_licencia
+   -ver_licencia @Usuario
+   ```
+   - Funciona escribiendo el comando manualmente con el prefix definido en el bot.
+
+💡 **Nota:**  
+Ambas versiones hacen exactamente lo mismo: muestran la información de la licencia del usuario indicado o tu propia licencia si no se menciona ningún usuario. 
 
 ---
 
