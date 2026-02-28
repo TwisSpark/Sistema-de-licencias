@@ -63,10 +63,10 @@ El comando no funcionará si falta alguna opción.
 
 
 <div align="center">
-  <img src="" width="500">
+  <img src="https://i.imgur.com/EgATA3J.png" width="500">
 </div>
 <div align="center">
-  <img src="" width="500">
+  <img src="https://i.imgur.com/akvvmwo.png" width="500">
 </div>
 
 💡 Nota Técnica:
