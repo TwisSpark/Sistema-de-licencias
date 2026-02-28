@@ -57,8 +57,39 @@ Ambas versiones hacen exactamente lo mismo: muestran la información de la licen
 ---
 
 
+## 🧩 Código (1/1) 
 
 ```
+$nomention
+$var[userID;$findUser[$message[1;usuario]]]
 
+$jsonParse[$getUserVar[licencia;$var[userID]]]
+$color[#ff8418]
+
+
+$if[$jsonExists[comprada_licencia]==false]
+$ephemeral
+$if[$var[userID]==$authorID]
+  $title[🔴 ¡No tienes permiso de conducir! 🚫🚗]
+  $description[Adquiere tu licencia en la tienda usando **-shop** y luego regístrala con </registrar_licencia:$slashID[registrar_licencia]>. ¡Sin licencia no puedes manejar!]
+$else
+  $title[🔴 $username[$var[userID]] no tiene licencia válida 🚫🚗]
+  $description[Dile que compre una en **-shop** y que la active con </registrar_licencia:$slashID[registrar_licencia]>. ¡A conducir responsable!]
+$endif
+
+$elseif[$jsonExists[comprada_licencia]==true]
+ 
+$thumbnail[$userAvatar[$var[userID]]]
+$title[¡Licencia de $nickname[$var[userID]]!]
+$addField[Tu número de licencia:; $json[licencia_numero] ;no]
+$addField[Nombre:; $json[nombre]  ;no]
+$addField[Apellido:; $json[apellido]  ;no]
+$addField[Tipo:; $json[licencia_tipo] ;no] 
+$addField[Puntos:; $json[licencia_puntos]/10 ;no]
+$addField[Expedición:; $json[licencia_expedicion] ;no]
+$addField[Caducidad:; $json[licencia_caducidad] ;no]
+$footer[$serverName[$guildID]]
+$footerIcon[$serverIcon]
+
+$endif
 ```
-
