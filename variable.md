@@ -1,12 +1,12 @@
 # 📦 Variable JSON
 
-Esta variable es necesaria para que el sistema de antecedentes funcione correctamente.
+Esta variable es necesaria para que el sistema de licencia funcione correctamente.
 
 ## 🔹 Configuración
 
 | **Nombre**    | **Valor inicial** |
 |---------------|------------------|
-| licencia  |        `{}`      |
+| licencia  |        `{}`    |
 
 ⚠️ **Importante:** 
 Debes crear esta variable exactamente con ese nombre y dejar el valor como un objeto vacío `{}` para evitar errores en el sistema.
