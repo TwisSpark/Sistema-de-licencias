@@ -49,24 +49,14 @@ Ambas versiones hacen exactamente lo mismo: muestran la información de la licen
 
 ---
 
-### 🔹 Ejemplo de uso
-
-```text
-/ver_licencia
-```
-- Muestra tu propia licencia si no se menciona ningún usuario.
-
-```text
-/ver_licencia @TwisSpark
-```
-- Muestra la licencia del usuario mencionado.
-
----
-
 ### 🔹 Nota técnica
 
 - Este comando solo funciona si el usuario tiene una **licencia registrada**.  
-- Si no tiene licencia, mostrará un mensaje indicando que debe **comprar y registrar** la licencia primero.  
+- Si no tiene licencia, mostrará un mensaje indicando que debe **comprar y registrar** la licencia primero.   
+
+---
+
+
 
 ```
 
