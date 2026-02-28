@@ -1,4 +1,4 @@
-# 📌 /registrar_licencia
+# 📌 Comando de registrar licencia
 
 Comando de tipo Slash Command (`/`) utilizado para registrar una licencia dentro del sistema.
 
