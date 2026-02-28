@@ -1,4 +1,4 @@
-# 📌 `/ver_licencia` / `-ver_licencia`
+# 📌 Comando de ver la licencia
 
 Este comando puede usarse de **dos formas**:
 
