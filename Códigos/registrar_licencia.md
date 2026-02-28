@@ -16,7 +16,7 @@ El comando no funcionará si falta alguna opción.
 - Descripción: Nombre de la persona que se registrará.
 
 <p align="center">
-  <img src="assets/images/registrar%20licencia/01.png" width="500">
+  <img src="assets/images/registrar-licencia/01.png" width="500">
 </p>
 
 ---
