@@ -85,7 +85,7 @@ $title[⚠️ Falta la variable "licencia"]
 $description[Por favor, agrégala en la aplicación lo antes posible.
 
 Pulsa el botón de abajo para ver cómo está la variable y su valor guardado.]
-$addButton[yes;https://github.com/TwisSpark/Sistema-de-licencias/blob/main/variable.md;Link;link]
+$addButton[yes;https://github.com/TwisSpark/Sistema-de-licencias/blob/main/variable.md;Ver;link]
 $color[#e62121]
 $stop
 $endif 
