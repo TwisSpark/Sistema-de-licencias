@@ -18,6 +18,7 @@ El comando no funcionará si falta alguna opción.
 <div align="center">
   <img src="https://i.imgur.com/7O67CIP.png" width="500">
 </div>
+
 ---
 
 ### 2️⃣ apellido
