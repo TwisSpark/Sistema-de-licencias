@@ -55,14 +55,6 @@ $var[rol_staff;aquí va la id del rol staff]
 
 ---
 
-## 🔹 Imagen ilustrativa
-
-<div align="center">
-  <img src="https://i.imgur.com/ejemplo.png" width="500">
-</div>
-
----
-
 ## 🔹 Nota de seguridad
 
 - Solo los usuarios con el **rol de staff** pueden ejecutar este comando.  
