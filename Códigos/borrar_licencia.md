@@ -35,7 +35,7 @@ Se puede usar tanto como **Slash Command** (`/`) como **Prefix Command** (`-`).
   - Solo los miembros con el rol de staff autorizado pueden ejecutar el comando.
 
 <div align="center">
-  <img src="https://i.imgur.com/7BZvAXg.png" width="500">
+  <img src="https://i.imgur.com/M75elRt.png" width="500">
 </div>
 
 ---
