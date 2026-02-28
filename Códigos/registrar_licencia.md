@@ -25,7 +25,7 @@ El comando no funcionará si falta alguna opción.
 - Requerido: ✅ Sí
 - Descripción: Apellido de la persona.
 <div align="center">
-  <img src="" width="500">
+  <img src="https://i.imgur.com/3Zg3YzJ.png" width="500">
 </div>
 
 
@@ -38,7 +38,7 @@ El comando no funcionará si falta alguna opción.
 - Formato recomendado: DD/MM/AAAA
 
 <div align="center">
-  <img src="" width="500">
+  <img src="https://i.imgur.com/peS93IW.png" width="500">
 </div>
 
 ---
