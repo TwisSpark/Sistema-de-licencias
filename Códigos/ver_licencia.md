@@ -76,7 +76,7 @@ $jsonParse[$getUserVar[licencia;$var[userID]]]
 $color[#ff8418]
 
 
-$if[$jsonExists[comprada_licencia]==false]
+$if[$jsonExists[licencia_activa]==false]
 $ephemeral
 $if[$var[userID]==$authorID]
   $title[🔴 ¡No tienes permiso de conducir! 🚫🚗]
