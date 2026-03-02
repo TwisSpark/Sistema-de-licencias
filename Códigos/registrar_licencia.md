@@ -79,8 +79,7 @@ pero el sistema recibirá únicamente el valor interno (A, B o C) para su proces
 ## 🧩 Código (1/1) 
 
 ```
-
-$nomention
+ $nomention
 $if[$varExists[licencia]==false]
 $title[⚠️ Falta la variable "licencia"]
 $description[Por favor, agrégala en la aplicación lo antes posible.
@@ -119,6 +118,7 @@ $jsonSetString[licencia_tipos;$replaceText[$replaceText[$replaceText[$var[licenc
 $jsonSetString[licencia_expedicion;$day/$month/$year] 
 $jsonSetString[licencia_caducidad;$day/$month/$sum[$year;10]]
 $jsonSetString[licencia_numero;$var[licencia_numero]]
+$jsonSetString[fecha_de_nacimiento;$var[fdn]]
 $jsonSetString[licencia_puntos;10] 
 $jsonSetString[licencia_activa;si] 
 $setUserVar[licencia;$jsonStringify]
@@ -129,11 +129,13 @@ $title[¡Licencia registrada exitosamente!]
 $addField[Tu número de licencia:; $var[licencia_numero] ;no]
 $addField[Nombre:; $json[nombre]  ;no]
 $addField[Apellido:; $json[apellido]  ;no]
-$addField[Tipo:; $json[licencia_tipos] ;no] 
+$addField[Tipo:; $json[licencia_tipos] ;no]
+$addField[Fecha de nacimiento:; $json[fecha_de_nacimiento] ;no] 
 $addField[Puntos:; $json[licencia_puntos]/10 ;no]
 $addField[Expedición:; $json[licencia_expedicion] ;no]
 $addField[Caducidad:; $json[licencia_caducidad] ;no]
 
 $endif 
+
 
 ```
