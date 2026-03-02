@@ -61,6 +61,7 @@ Ambas versiones hacen exactamente lo mismo: muestran la información de la licen
 
 ```
 $nomention
+
 $if[$varExists[licencia]==false]
 $title[⚠️ Falta la variable "licencia"]
 $description[Por favor, agrégala en la aplicación lo antes posible.
@@ -70,6 +71,7 @@ $addButton[yes;https://github.com/TwisSpark/Sistema-de-licencias/blob/main/varia
 $color[#e62121]
 $stop
 $endif 
+
 
 $var[userID;$findUser[$message[1;usuario]]]
 $jsonParse[$getUserVar[licencia;$var[userID]]]
@@ -86,14 +88,14 @@ $else
   $description[Dile que compre una en **-shop** y que la active con </registrar_licencia:$slashID[registrar_licencia]>. ¡A conducir responsable!]
 $endif
 
-$elseif[$jsonExists[comprada_licencia]==true]
+$elseif[$jsonExists[licencia_activa]==true]
  
 $thumbnail[$userAvatar[$var[userID]]]
 $title[¡Licencia de $nickname[$var[userID]]!]
 $addField[Tu número de licencia:; $json[licencia_numero] ;no]
 $addField[Nombre:; $json[nombre]  ;no]
 $addField[Apellido:; $json[apellido]  ;no]
-$addField[Tipo:; $replaceText[$json[licencia_tipo;A] $json[licencia_tipo;B] $json[licencia_tipo;C]; ;,] ;no] 
+$addField[Tipo:; $json[licencia_tipos] ;no]
 $addField[Puntos:; $json[licencia_puntos]/10 ;no]
 $addField[Expedición:; $json[licencia_expedicion] ;no]
 $addField[Caducidad:; $json[licencia_caducidad] ;no]
