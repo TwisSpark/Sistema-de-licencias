@@ -118,7 +118,7 @@ $title[🔴 Usuario requerido]
 $description[Debes mencionar un usuario para poder borrar su licencia.]
 
 
-$elseif[$jsonExists[comprada_licencia]==false]
+$elseif[$jsonExists[licencia_activa]==false]
 $ephemeral
 $title[🔴 $nickname[$var[userID]] no tiene licencia válida 🚫🚗]
 $description[Dile que compre una en **-shop** y que la active con </registrar_licencia:$slashID[registrar_licencia]>. ¡A conducir responsable!]
@@ -132,6 +132,5 @@ $resetUserVar[licencia;$var[userID]]
 
 
 $endif
-
 
 ```
