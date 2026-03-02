@@ -13,7 +13,7 @@ Si cambias los nombres o valores, el comando no funcionará correctamente.
 ## 🔹 Opciones del Comando
 
 ### 1️⃣ Texto
-- **Tipo:** String (Text)
+- **Tipo:** (Text)
 - **Requerido:** ✅ Sí
 - **Descripción:** Selecciona el tipo de licencia que deseas comprar.
 - **Restricción:** Solo permite valores predefinidos (choices).
