@@ -19,6 +19,11 @@ Toda la información de las licencias se almacena y gestiona desde esta estructu
 ## 📌 Comandos del Sistema
 
 ### 🔹 /registrar_licencia
+
+<div align="center">
+  <img src="https://i.imgur.com/uIDl7ot.png" width="500">
+</div>
+
 Comando de tipo **Slash Command (`/`)** utilizado para registrar y activar una licencia previamente comprada.
 
 👉 [Ver código /registrar_licencia](https://github.com/TwisSpark/Sistema-de-licencias/blob/main/C%C3%B3digos%2Fregistrar_licencia.md)
