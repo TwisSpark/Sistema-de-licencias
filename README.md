@@ -57,6 +57,11 @@ Permite eliminar la licencia de un usuario registrado.
 ---
 
 ### 🔹 /buy_licencias
+
+<div align="center">
+  <img src="https://i.imgur.com/8AKJqMn.png" width="500">
+</div>
+
 Comando de tipo **Slash Command (`/`)** utilizado para comprar licencias dentro del sistema (Licencia Principal, Coches, Motos, Camiones).
 
 👉 [Ver código /buy_licencias](https://github.com/TwisSpark/Sistema-de-licencias/blob/main/C%C3%B3digos%2Fbuy_licencia.md)
