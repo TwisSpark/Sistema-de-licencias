@@ -92,7 +92,7 @@ $footerIcon[$serverIcon]
 $color[#ff8418] 
 
 
-$var[rol_staff;1477090248239611974] $c[aquí va la id del rol staff]
+$var[rol_staff;Aquí va la id del rol staff]
 
 $if[$roleExists[$var[rol_staff]]==false]
 $title[]
