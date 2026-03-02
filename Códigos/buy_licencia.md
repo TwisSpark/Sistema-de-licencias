@@ -93,6 +93,9 @@ El comando puede romperse y dejar de funcionar correctamente.
 
 Si no sabes cómo editar JSON o el código, ve a mi servidor de soporte: **Sparkify World** para recibir ayuda antes de hacer cambios.
 
+
+🔒 Este sistema depende directamente de la estructura correcta del JSON.  
+Modificarlo sin conocimiento puede causar errores graves en el funcionamiento del bot.
 ---
 
 ## 🧩 Código (1/1) 
@@ -207,8 +210,4 @@ $endif
 
 
 ```
-
-
-🔒 Este sistema depende directamente de la estructura correcta del JSON.  
-Modificarlo sin conocimiento puede causar errores graves en el funcionamiento del bot.
 
