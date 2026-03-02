@@ -44,6 +44,11 @@ Permite consultar la licencia de un usuario o la propia, mostrando número, tipo
 ---
 
 ### 🔹 /borrar_licencia
+
+<div align="center">
+  <img src="https://i.imgur.com/MZGO4Do.png" width="500">
+</div>
+
 Permite eliminar la licencia de un usuario registrado.  
 ⚠️ Disponible únicamente para el rol de staff autorizado.
 
