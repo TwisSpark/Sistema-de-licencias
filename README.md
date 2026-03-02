@@ -36,6 +36,7 @@ Permite consultar la licencia de un usuario o la propia, mostrando número, tipo
 <div align="center">
   <img src="https://i.imgur.com/oaNI8tr.png" width="500">
 </div>
+
 👉 [Ver código /ver_licencia](https://github.com/TwisSpark/Sistema-de-licencias/blob/main/C%C3%B3digos%2Fver_licencia.md)
 
 ---
